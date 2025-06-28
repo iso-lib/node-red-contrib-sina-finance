@@ -13,7 +13,7 @@
     "iconv-lite": "^0.6.3"
   },
   "author": {
-    "name": "Node-RED User"
+    "name": "iso-lib"
   },
   "node-red": {
     "nodes": {
