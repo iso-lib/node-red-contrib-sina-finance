@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-sina-finance",
-  "version": "0.2.0",
+  "version": "0.3.1",
   "description": "新浪财经股票数据获取节点",
   "keywords": [
     "node-red",
@@ -15,10 +15,22 @@
   "author": {
     "name": "iso-lib"
   },
+  "main": "sina-stock.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iso-lib/node-red-contrib-sina-finance.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iso-lib/node-red-contrib-sina-finance/issues"
+  },
+  "homepage": "https://github.com/iso-lib/node-red-contrib-sina-finance#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "node-red": {
     "nodes": {
       "sina-stock": "sina-stock.js"
     }
   },
   "license": "MIT"
-} 
+}
