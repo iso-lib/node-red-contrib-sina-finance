@@ -13,11 +13,6 @@ module.exports = function(RED) {
         function formatStockData(stockInfoArray, codeArray) {
             var result = [];
             
-            // 输出原始数据，用于调试
-            node.log("原始数据数组长度: " + stockInfoArray.length);
-            if (stockInfoArray.length > 0) {
-                node.log("第一条原始数据: " + stockInfoArray[0]);
-            }
             
             // 根据语言选择键名
             const keyNames = node.outputLanguage === "zh" ? {

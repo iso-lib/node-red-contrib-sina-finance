@@ -154,5 +154,5 @@ npm install node-red-contrib-sina-finance
 ```
 
 ## 许可证
-
+注意,本节点为测试用途,请于24小时内删除,所使用的api为网络公开搜集的新浪财经API,请遵守其使用规定.
 该项目基于MIT许可证发布。 
